@@ -12,3 +12,12 @@ body {
     background: linear-gradient(102.32deg, #030422 -2.74%, #090114 101.6%);
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.container {
+    display: flex;
+    gap: 32px;
+}
+
+.cards-back {
+    
+}

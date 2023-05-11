@@ -67,6 +67,8 @@ body {
     border-radius: 20px;
     background-image: url(./assets/CardFront/bg-card-front.png);
     box-shadow: 0px 113px 45px rgba(0, 0, 0, 0.02), 0px 64px 38px rgba(0, 0, 0, 0.08), 0px 28px 28px rgba(0, 0, 0, 0.13), 0px 7px 16px rgba(0, 0, 0, 0.15), 0px 0px 0px rgba(0, 0, 0, 0.15);
+
+    position: relative;
 }
 
 .card-info {
@@ -78,6 +80,8 @@ body {
     flex-direction: column;
     gap: 16px;
     width: 300px;
+
+    margin-bottom: 60px;
 }
 
 .card-info h2 {
@@ -96,4 +100,31 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+}
+
+.character {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+main {
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .info h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--title-color);
+}
+
+main .info span {
+    color: var(--subdescription-color);
+    font-size: 14px;
+    line-height: 130%;
 }

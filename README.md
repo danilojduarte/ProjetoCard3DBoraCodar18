@@ -1,7 +1,9 @@
 <strong><h1 align="center">#boraCodar - Desafio 18</h1></strong>
 
 <p align="center">
-  <img alt="" src=".github/preview.gif" width="100%">
+  <img alt="" src=".github/" width="100%">
+  ![image](https://github.com/danilojduarte/ProjetoCard3DBoraCorar18/assets/76825919/3e97adfa-4453-4d57-abd4-63d35c465590)
+
 </p>
 
 

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles.css" />
 
     <!-- Link Css Atropos -->
-    <link rel="stylesheet" href="atropos/atropos.min.css">
+    <link rel="stylesheet" href="atropos/atropos.min.css" />
 
     <!-- Link js Atropos -->
     <script src="atropos/atropos.min.js"></script>
@@ -25,83 +25,86 @@
     <title>Bora Codar - Desafio #18</title>
   </head>
   <body>
-    <div class="container">
+    <div class="atropos container">
+      <div class="cards">
         <div class="cards-back">
             <h1>FINN</h1>
-        </div>
-
-
-
-        <div class="card">
-            <div class="card-info">
-                <header>
-                    <h2>Rey Skywalker</h2>
-                    <span>
-                        Era uma catadora de sucata que descobriu ser sensível à Força durante sua busca ao lendário Mestre Jedi Luke Skywalker.
-                    </span>
-
-                </header>
-
-                <div class="character">
-                    <img src="assets/Character.png" alt="Imagem de Rey Skywalker">
+          </div>
+    
+          <div class="card">
+    
+            <!-- scale container (required) -->
+            <div class="atropos-scale">
+              <!-- rotate container (required) -->
+              <div class="atropos-rotate">
+                <!-- inner container (required) -->
+                <div class="atropos-inner">
+                    <div class="card-info">
+                        <header>
+                          <h2 data-atropos-offset="5">Rey Skywalker</h2>
+                          <span>
+                            Era uma catadora de sucata que descobriu ser sensível à Força
+                            durante sua busca ao lendário Mestre Jedi Luke Skywalker.
+                          </span>
+                        </header>
+              
+                        <div class="character">
+                          <img src="assets/Character.png" 
+                          alt="Imagem de Rey Skywalker" 
+                          data-atropos-offset="4" />
+                        </div>
+                        <main>
+                          <div class="info">
+                            <span> Filmes </span>
+                            <h4>
+                              The Force Awakens, The Last<br />
+                              Jedi, The Rise of Skywalker &<br />
+                              Forces of Destiny
+                            </h4>
+                          </div>
+              
+                          <div class="info">
+                            <span> Espécie </span>
+                            <h4>Humana</h4>
+                          </div>
+              
+                          <div class="info">
+                            <span> Altura </span>
+                            <h4>1,7m</h4>
+                          </div>
+              
+                          <div class="info">
+                            <span> Localidade </span>
+                            <h4>Jakku</h4>
+                          </div>
+              
+                          <div class="info">
+                            <span> Armas </span>
+                            <h4>
+                              Sabre de luz, Blaster,<br />
+                              Quarterstaff
+                            </h4>
+                          </div>
+                        </main>
+                      </div>
                 </div>
-                <main>
-                    <div class="info">
-                        <span>
-                            Filmes
-                        </span>
-                        <h4>
-                            The Force Awakens, The Last<br> Jedi, The Rise of Skywalker &<br> Forces of Destiny
-                        </h4>
-                    </div>
-        
-                    <div class="info">
-                        <span>
-                            Espécie
-                        </span>
-                        <h4>
-                            Humana
-                        </h4>
-                    </div>
-        
-                    <div class="info">
-                        <span>
-                            Altura
-                        </span>
-                        <h4>
-                            1,7m
-                        </h4>
-                    </div>
-        
-                    <div class="info">
-                        <span>
-                            Localidade
-                        </span>
-                        <h4>
-                            Jakku
-                        </h4>
-                    </div>
-        
-                    <div class="info">
-                        <span>
-                            Armas
-                        </span>
-                        <h4>
-                            Sabre de luz, Blaster,<br> Quarterstaff
-                        </h4>
-                    </div>
-                </main>
+              </div>
             </div>
-        </div>
-
-        
-
-
-        <div class="cards-back">
+    
+            
+          </div>
+    
+          <div class="cards-back">
             <h1>BB-8</h1>
-        </div>
+          </div>
+      </div>
     </div>
 
+    <script>
+        new Atropos ({
+            el: ".atropos"
+        })
+    </script>
 
   </body>
 </html>

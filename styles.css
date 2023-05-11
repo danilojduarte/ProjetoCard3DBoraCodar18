@@ -28,7 +28,7 @@ body {
 
 .container {
     display: flex;
-    gap: 32px;
+    align-items: center;
 }
 
 .cards-back {
